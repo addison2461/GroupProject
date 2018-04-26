@@ -1,41 +1,63 @@
-﻿body {
-    width: auto;
-    text-align: center;
-    background-color: #ccc;
-    padding: 2px;
-    text-shadow: 0px 0px .08px #b6ff00;
-    font-size: large;
+body {background-image: url(sunset.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Arima Madurai', cursive;
+      color: white;
+      font-weight: bold;
+      padding: 30px;
 }
-.hide {
-    display: none;
+
+img {
+  width:100%;
 }
-.title {
-    font-size: xx-large;
-    padding: 1%;
-    background-color: aliceblue;
-    margin: 1%;
+
+header {
+  text-align: center;
 }
-button {
-    margin: 1%;
+
+.topnav {
+  text-align: center;
+  float: none;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.content {
-    background-color: #ccc;
-    width: auto;
-    margin: 1%;
-    padding: 1%;
-    align-content: center;
+
+h2 {
+  text-align: center;
 }
-.iconic {
-    background-image: url(image.jpg);
-    background-size: cover;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-fieldset, input {
-    margin: 1%;
+
+.sidebar {text-align: center;}
+
+a:hover {
+  background-color: #ce99ff;
+  color: white;
 }
-a {
-    background-color: blanchedalmond;
+
+.topnav {
+  background-color: #e6ccff;
+  overflow: hidden;
+}
+
+a:link {
     text-decoration: none;
-    color: black;
-    padding: 2px;
-    margin: 5% 2%;
+}
+
+section: {
+  padding: 30px;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: large
+}
+
+.carousel{
+  interval: 2000
 }

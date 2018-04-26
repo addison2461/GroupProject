@@ -1,2 +1,41 @@
 ﻿body {
+    width: auto;
+    text-align: center;
+    background-color: #ccc;
+    padding: 2px;
+    text-shadow: 0px 0px .08px #b6ff00;
+    font-size: large;
+}
+.hide {
+    display: none;
+}
+.title {
+    font-size: xx-large;
+    padding: 1%;
+    background-color: aliceblue;
+    margin: 1%;
+}
+button {
+    margin: 1%;
+}
+.content {
+    background-color: #ccc;
+    width: auto;
+    margin: 1%;
+    padding: 1%;
+    align-content: center;
+}
+.iconic {
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+fieldset, input {
+    margin: 1%;
+}
+a {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 5% 2%;
 }

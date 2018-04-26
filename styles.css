@@ -1,14 +1,82 @@
-﻿body {
+body {background-image: url(sunset.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Arima Madurai', cursive;
+      color: white;
+      font-weight: bold;
+      padding: 30px;
+}
+
+img {
+  width:100%;
+}
+
+header {
+  text-align: center;
+}
+
+.topnav {
+  text-align: center;
+  float: none;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sidebar {text-align: center;}
+
+a:hover {
+  background-color: #ce99ff;
+  color: white;
+}
+
+.topnav {
+  background-color: #e6ccff;
+  overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+section {
+  padding: 30px;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: large
+}
+
+.carousel{
+  interval: 2000;
+}
+
+.body {
     width: auto;
     text-align: center;
     background-color: #ccc;
     padding: 2px;
     text-shadow: 0px 0px .08px #b6ff00;
+    font-family: unset;
     font-size: large;
+    color: black;
 }
+
 .hide {
     display: none;
 }
+
 .title {
     font-size: xx-large;
     padding: 1%;
@@ -16,9 +84,11 @@
     margin: 1%;
     border: groove 5px #5c0e2a;
 }
+
 button {
     margin: 1%;
 }
+
 .content {
     background-color: #ccc;
     width: auto;
@@ -26,24 +96,29 @@ button {
     padding: 1%;
     align-content: center;
 }
+
 .iconic {
     background-image: url(image.jpg);
     background-size: cover;
 }
+
 fieldset {
     background-image: url(maxresdefault.jpg);
     background-size: cover;
     margin: 1%;
 }
+
 input, option {
     margin: 1%;
     color: #230720;
 }
+
 legend {
     background-color: aliceblue;
     border: ridge .5px black;
 }
-a {
+
+.a {
     background-color: crimson;
     text-decoration: none;
     color: black;
@@ -51,7 +126,8 @@ a {
     margin: 5% 2%;
     border: ridge .5px black;
 }
-a:hover {
+
+.a:hover {
     background-image: url(image.jpg);
     background-size: cover;
     color: #1be890;

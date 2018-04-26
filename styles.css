@@ -12,8 +12,9 @@
 .title {
     font-size: xx-large;
     padding: 1%;
-    background-color: aliceblue;
+    background-color: #1be890;
     margin: 1%;
+    border: groove 5px #5c0e2a;
 }
 button {
     margin: 1%;
@@ -29,13 +30,36 @@ button {
     background-image: url(image.jpg);
     background-size: cover;
 }
-fieldset, input {
+fieldset {
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
     margin: 1%;
 }
+input, option {
+    margin: 1%;
+    color: #230720;
+}
+legend {
+    background-color: aliceblue;
+    border: ridge .5px black;
+}
 a {
-    background-color: blanchedalmond;
+    background-color: crimson;
     text-decoration: none;
     color: black;
     padding: 2px;
     margin: 5% 2%;
+    border: ridge .5px black;
 }
+a:hover {
+    background-image: url(image.jpg);
+    background-size: cover;
+    color: #1be890;
+    border: ridge .5px #15c1f9;
+    text-shadow: 0px 0px .8px crimson;
+}
+/*p {
+    box-sizing: content-box;
+    width: auto;
+    background-color: azure;
+}*/

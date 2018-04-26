@@ -19,7 +19,7 @@
         <div class="content">
             <header class="title"> Purchase Your Tickets Easily, With This Simple Form! </header>
             <nav>
-                <a href="index.html" rel="index"> Home </a> || <a href="purchase.html" rel="next"> Ticketing </a> || <a href="receipt.html" rel="next"> Receipt </a>
+                <a download="maxresdefault.jpg" title="maxresdefault.jpg" href="index.html" rel="index"> Home </a> || <a download="maxresdefault.jpg" title="maxresdefault.jpg" href="purchase.html" rel="next"> Ticketing </a> || <a download="maxresdefault.jpg" title="maxresdefault.jpg" href="receipt.html" rel="next"> Receipt </a>
             </nav>
             <form method="get" action="receipt.html">
                 <fieldset>
@@ -32,9 +32,12 @@
                 </fieldset>
                 <fieldset id="Sec1" class="hide">
                     <legend> Time Of Departures </legend>
-                    <input type="radio" name="Departure" value="6 am" onchange="Display2()" /> 6 AM
-                    <input type="radio" name="Departure" value="12 pm" onchange="Display2()" /> 12 PM
-                    <input type="radio" name="Departure" value="4 pm" onchange="Display2()" /> 4 PM
+                    <input type="radio" name="Departure" value="6 am" onchange="Display2()" />
+                    <p> 6 AM </p>
+                    <input type="radio" name="Departure" value="12 pm" onchange="Display2()" /> 
+                    <p> 12 PM </p>
+                    <input type="radio" name="Departure" value="4 pm" onchange="Display2()" /> 
+                    <p> 4 PM </p>
                     <input type="date" name="Date" required />
                 </fieldset>
                 <fieldset id="Sec2" class="hide">

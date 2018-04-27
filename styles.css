@@ -106,6 +106,8 @@ fieldset {
     background-image: url(maxresdefault.jpg);
     background-size: cover;
     margin: 1%;
+    color: azure;
+    text-shadow: 0px 0px 1px black;
 }
 
 input, option {
@@ -116,6 +118,8 @@ input, option {
 legend {
     background-color: aliceblue;
     border: ridge .5px black;
+    color: black;
+    text-shadow: 0px 0px .08px #b6ff00;
 }
 
 .a {
@@ -134,8 +138,3 @@ legend {
     border: ridge .5px #15c1f9;
     text-shadow: 0px 0px .8px crimson;
 }
-/*p {
-    box-sizing: content-box;
-    width: auto;
-    background-color: azure;
-}*/
